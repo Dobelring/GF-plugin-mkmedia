@@ -2,7 +2,7 @@
   "name": "GF-plugin-mkmedia",
   "displayName": "MK媒体·官方",
   "author": "三个句号(素材/解析) + 移植",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "entry": "index.mjs",
   "description": "QQ 官方机器人：B站/抖音/小红书/快手/YouTube/TikTok 视频解析 + 表情包合成（摸头/贴贴/嘲讽等）。表情制作需要本机可用 sharp（首次使用会自动安装）"
 }

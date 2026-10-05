@@ -107,7 +107,11 @@ export async function plugin_onmessage(ctx, event) {
       const hit = detectLink(scanText);
       if (hit) {
         const cap = Math.max(1, Math.min(10, Number(cfg['图集最多发送']) || 4));
-        await handleVideoLink(ctx, event, hit.platform, hit.url, { maxMedia: cap });
+        await handleVideoLink(ctx, event, hit.platform, hit.url, {
+          maxMedia: cap,
+          proxyUrl: cfg['代理'],
+          dataPath: ctx.dataPath,
+        });
         return;
       }
     }
