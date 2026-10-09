@@ -1,6 +1,6 @@
 {
   "name": "GF-plugin-mkmedia",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "QQ 官方机器人 · 视频解析 + 表情制作",
   "main": "index.mjs",
   "type": "module"
