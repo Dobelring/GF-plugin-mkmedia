@@ -111,6 +111,7 @@ export async function plugin_onmessage(ctx, event) {
           maxMedia: cap,
           proxyUrl: cfg['代理'],
           dataPath: ctx.dataPath,
+          cookies: { xhs: cfg['小红书Cookie'], blbl: cfg['哔哩哔哩Cookie'] },
         });
         return;
       }
